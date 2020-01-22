@@ -19,8 +19,11 @@ And for concurrency, the various processes often do not address related tasks, b
  ### What kinds of problems motivates the need for concurrent execution?
  (Or phrased differently: What problems do concurrency help in solving?)
  > Limited resource problems
+ 
  > Lost updates
+ 
  > Uncommitted Data
+ 
  > Inconsistent Retrievals
  
  ### Does creating concurrent programs make the programmer's life easier? Harder? Maybe both?
