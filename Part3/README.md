@@ -7,8 +7,10 @@ When answering the questions, remember to use all the resources at your disposal
 
  ### What is concurrency? What is parallelism? What's the difference?
  > The defenition of concurrency is that multiple computations are computed simultaniously. E.g. Multiple computers on a network, multiple applications on a computer, multiple cores or processes on a computer or a single chip.
- > In parallelism executions of precesses are carried out simultaneously. E.g. bit-level, instruction-level, data and task parallelism. Often the processes are subtasks or subprocesses of a larger process. 
- > These terms are closly related, but there is a difference. In parallelism, a computational task is typically broken down into several, often many, very similar sub-tasks that can be processed independently and whose results are combined afterwards, upon completion. 
+ 
+In parallelism executions of precesses are carried out simultaneously. E.g. bit-level, instruction-level, data and task parallelism. Often the processes are subtasks or subprocesses of a larger process. 
+
+These terms are closly related, but there is a difference. In parallelism, a computational task is typically broken down into several, often many, very similar sub-tasks that can be processed independently and whose results are combined afterwards, upon completion. 
 And for concurrency, the various processes often do not address related tasks, but if they do, they might require inter-process communication during excecution.
  
  ### Why have machines become increasingly multicore in the past decade?
